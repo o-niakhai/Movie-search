@@ -3,9 +3,9 @@ import {Header} from './Layout/Header'
 
 function App() {
   return (
-    <React.Fragment>
+    <>
       <Header/>
-    </React.Fragment>
+    </>
   );
 }
 
