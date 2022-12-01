@@ -11,6 +11,7 @@ class Main extends React.Component {
         loading: true,
     };
 
+    
     componentDidMount() {
         console.log(process.env);
         fetch(`https://www.omdbapi.com/?apikey=${API_KEY}&s=matrix`)
